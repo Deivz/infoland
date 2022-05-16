@@ -1,7 +1,9 @@
+import Topo from "./components/header/header";
+
 function App() {
   return (
     <div className="App">
-        <p>Olá mundo!</p>
+        <Topo />
     </div>
   );
 }
