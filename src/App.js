@@ -1,9 +1,13 @@
-import Topo from "./components/header/header";
+import Topo from "./components/topo";
+import Conteudo from "./components/conteudo"
+import Rodape from "./components/rodape";
 
 function App() {
   return (
     <div className="App">
         <Topo />
+        <Conteudo />
+        <Rodape />
     </div>
   );
 }

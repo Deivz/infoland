@@ -9,7 +9,7 @@ export default function Topo(){
                 <h1><a href="#"><img src={logo} alt="Logotipo da empresa" className={styles.logo}></img></a></h1>
                 <nav className={styles.navegacao}>
                     <ul className={styles.nav__lista}>
-                        <li>
+                        <li className={styles.login}>
                             <FaUserCircle className={styles.fa} />
                             <span className={styles.nav__textos}>
                                 Faça seu <a href="#">Login</a> ou <a href="#">Cadastre-se</a>
@@ -18,18 +18,24 @@ export default function Topo(){
                         <li className={styles.atendimento}>
                             <a href="#">
                                 <FaPhoneSquareAlt className={styles.fa} />
+                            </a>
+                            <a href="#">
                                 <span className={styles.nav__textos}>Atendimento ao cliente</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <FaToggleOff className={styles.fa} />
+                            </a>
+                            <a href="#">
                                 <span className={styles.nav__textos}>Modo escuro</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <FaShoppingCart className={styles.fa} />
+                            </a>
+                            <a href="#">
                                 <span className={styles.nav__textos}>Carrinho</span>
                             </a>
                         </li>

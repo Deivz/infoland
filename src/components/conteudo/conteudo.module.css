@@ -1,0 +1,11 @@
+section{
+    background-color: lightgray;
+}
+
+.container{
+    background-color: lightblue;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 1rem 0;
+    width: 96%;
+}
